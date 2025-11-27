@@ -4,10 +4,13 @@ title: 지도
 permalink: /map/
 ---
 
-# 여행 지도
+# 지도
 
-아래는 여행 중 방문할 장소들을 정리한 지도입니다.
+여행 중 방문할 주요 장소를 지도에 정리합니다.
 
-<iframe 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30671.499252744008!2d108.19137851562499!3d16.0687376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142192dea33553f%3A0x67195ccda4ab2f7f!2z64OQ67KxIOugiOyKpO2GoOuekSDtlZzsi5zsnqXsoJAoaGVhZCBvZmZpY2Up66mU7J247IO1!5e0!3m2!1sko!2skr!4v1764248909398!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</iframe>
+예를 들어, 구글 지도 공유 링크를 넣거나, 스크린샷 이미지를 넣을 수 있어요.
+
+- [타이중 여행 지도 (Google Maps)](https://maps.google.com)
+- [타이베이 맛집 지도 (Google Maps)](https://maps.google.com)
+
+> 나중에 실제 링크로 바꾸면 됩니다 🙂
