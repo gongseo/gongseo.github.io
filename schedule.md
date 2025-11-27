@@ -21,7 +21,7 @@ permalink: /schedule/
   <div class="day-card">
     <h2>DAY 2 – 타이중 시내투어</h2>
     <ul>
-      <li>09:00 카페 ×× 방문</li>
+      <li>09:00 카페 콩 방문</li>
       <li>11:00 무지개 마을</li>
       <li>15:00 국립 미술관</li>
       <li>19:00 타이중 야시장</li>
