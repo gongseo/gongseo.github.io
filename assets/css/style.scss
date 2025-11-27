@@ -1,0 +1,94 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ===== 공통 색감: DotX 비슷한 초록 계열 ===== */
+:root {
+  --main-green: #18bc9c;   /* 메인 포인트 색 */
+  --dark-green: #128f76;   /* 호버/강조용 */
+  --dark-bg:   #1f2933;    /* 상단바 배경 */
+}
+
+/* 전체 배경/본문 살짝 밝게 */
+body {
+  background-color: #f7fafc;
+}
+
+/* 메인 콘텐츠 카드 느낌 */
+.main-content {
+  max-width: 900px;
+  margin: 4rem auto 3rem;
+  padding: 2.5rem 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
+
+/* 제목 스타일 */
+.main-content h1,
+.main-content h2 {
+  color: #1f2933;
+}
+
+/* 링크 색 */
+a {
+  color: var(--main-green);
+}
+a:hover {
+  color: var(--dark-green);
+  text-decoration: none;
+}
+
+/* ===== 상단 고정 메뉴바 ===== */
+.top-nav-wrapper {
+  position: sticky;  /* 스크롤해도 위에 붙어 있게 */
+  top: 0;
+  z-index: 1000;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.9rem 1.5rem;
+  background: linear-gradient(90deg, var(--dark-bg), #111827);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.6);
+}
+
+/* 사이트 이름 영역 */
+.top-nav .site-title {
+  margin-right: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #e5e7eb;
+}
+
+/* 메뉴 링크들 */
+.top-nav a {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 0.15rem;
+  border-bottom: 2px solid transparent;
+}
+
+.top-nav a:hover {
+  border-bottom-color: var(--main-green);
+  color: #ffffff;
+}
+
+/* 모바일 대응 */
+@media (max-width: 720px) {
+  .top-nav {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .top-nav .site-title {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 0.25rem;
+  }
+}
