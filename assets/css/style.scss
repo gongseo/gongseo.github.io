@@ -116,3 +116,58 @@ a:hover {
 }
 
 /* (비용표, 지도 등 다른 스타일도 나중에 여기에 추가) */
+/* ===== 비용표 스타일 ===== */
+
+.cost-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.cost-table th {
+  background: var(--main-green);
+  color: #ffffff;
+  padding: 0.8rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.cost-table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.cost-table tr:last-child td {
+  border-bottom: none;
+}
+
+.cost-table tfoot td {
+  background: #f9fafb;
+}
+
+.cost-table tr:hover tbody {
+  background: #f0fdf9;
+}
+
+/* 입력 칸 스타일 */
+.cost-table input.cost-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  text-align: right;
+}
+
+.cost-table input.cost-input:focus {
+  outline: 2px solid var(--main-green);
+  outline-offset: 1px;
+  border-color: var(--main-green);
+}
