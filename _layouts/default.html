@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {%- if site.description -%}
+    <meta name="description" content="{{ site.description }}">
+    {%- endif -%}
+
+    <!-- Cayman 테마 + 우리가 만든 커스텀 CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+
+    <!-- 상단 고정 네비게이션 바 -->
+    <div class="top-nav-wrapper">
+      <nav class="top-nav">
+        <span class="site-title">{{ site.title }}</span>
+
+        <a href="{{ '/' | relative_url }}">여행 소개</a>
+        <a href="{{ '/schedule/' | relative_url }}">일정</a>
+        <a href="{{ '/map/' | relative_url }}">지도</a>
+        <a href="{{ '/cost/' | relative_url }}">비용</a>
+      </nav>
+    </div>
+
+    <!-- 본문 -->
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+
+  </body>
+</html>
