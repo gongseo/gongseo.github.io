@@ -5,9 +5,9 @@
 
 /* ===== 공통 색감: DotX 비슷한 초록 계열 ===== */
 :root {
-  --main-green: #18bc9c;   /* 메인 포인트 색 */
-  --dark-green: #128f76;   /* 호버/강조용 */
-  --dark-bg:   #1f2933;    /* 상단바 배경 */
+  --main-green: #18bc9c;
+  --dark-green: #128f76;
+  --dark-bg:   #1f2933;
 }
 
 /* 전체 배경/본문 살짝 밝게 */
@@ -42,7 +42,7 @@ a:hover {
 
 /* ===== 상단 고정 메뉴바 ===== */
 .top-nav-wrapper {
-  position: sticky;  /* 스크롤해도 위에 붙어 있게 */
+  position: sticky;
   top: 0;
   z-index: 1000;
 }
@@ -56,7 +56,6 @@ a:hover {
   border-bottom: 1px solid rgba(15, 23, 42, 0.6);
 }
 
-/* 사이트 이름 영역 */
 .top-nav .site-title {
   margin-right: 3rem;
   font-weight: 700;
@@ -64,7 +63,6 @@ a:hover {
   color: #e5e7eb;
 }
 
-/* 메뉴 링크들 */
 .top-nav a {
   color: #e5e7eb;
   font-size: 0.95rem;
@@ -92,6 +90,7 @@ a:hover {
     margin-bottom: 0.25rem;
   }
 }
+
 /* ===== 일정 카드 스타일 ===== */
 
 .trip-schedule {
@@ -115,3 +114,5 @@ a:hover {
   margin-top: 1rem;
   line-height: 1.65;
 }
+
+/* (비용표, 지도 등 다른 스타일도 나중에 여기에 추가) */
